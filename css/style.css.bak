@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Mulish', sans-serif;
+	font-size:14px;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	max-width: 1140px;
+	margin: 0px auto;
+}
+.container .navigation{
+	display: flex;
+	padding: 20px 0px;
+}
+header {
+    border-bottom: 1px solid #EDEDED;
+}
+.container .navigation .logo{
+	width: 20%;
+}	
+.navigation .logo img{
+	width: 180px;
+}
+.wrpr {
+    width: 80%;
+    text-align: right;
+}
+.item, .button-area {
+    display: inline-block;
+}
+.item ul {
+    padding-right: 25px;
+}
+.navigation .item ul li{
+	display: inline-block;
+	margin: 5px 0px 0px 0px;
+}
+.navigation .item ul li a{
+	padding: 0px 35px 0px 0px;
+	color: #000000;
+}
+.navigation .item ul li a{
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+.navigation .item ul li img{
+	width: 19px;
+	height: 19px;
+	position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+.navigation .button-area button.light-btn,.navigation .button-area button.darck-btn {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 120px;
+	font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+	transition: all .4s;
+}
+.navigation .button-area button a{
+		transition: all .4s;
+		text-transform: capitalize;
+}
+.navigation .button-area button.light-btn a{
+	color:#000;
+}
+.navigation .button-area button.light-btn:hover a{
+	background:#000;
+	color:#fff;
+}
+.navigation .button-area button.darck-btn:hover a{
+	background:#fff;
+	color:#000;
+}
+.navigation .button-area button.darck-btn a{
+	background:#000;
+	color:#fff;
+}
+.navigation .button-area button a{
+	display:block;
+}
+.footer-area .item ul li{
+	display: inline-block;
+	padding: 0px 35px 0px 0px;
+}		
+.footer-area .item ul li a{
+	color: #FFFFFF;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+footer{
+	background: #000000;
+	    padding: 35px 0;
+}
+.footer-area .footer{
+	display: flex;
+}
+.footer-area .footer .footer-text h6{
+	padding: 40px 20px 0px 0px;
+	color: #9C9C9C;
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}
+.footer-area{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer-area .text{
+	color: #9C9C9C;
+}
+.footer-area .icons{
+	margin-top:24px;
+}
+.footer-area .icons i {
+    margin: 0px 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    object-fit: cover;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+main .main-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	    max-width: 720px;
+    margin: 250px auto;
+	text-align: center;
+}
+.copyright-text h6{
+	font-weight: 400;
+	    color: #9C9C9C;
+}
+.main-content .text p{
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	margin-bottom:20px;
+}	
+.main-content .search-bar{
+	width: 750px;
+	padding: 14px 10px;
+	background: #EDEDED;
+	border-radius: 5px;
+}
+.main-content .search-bar input{
+	    width: 560px;
+	height: 45px;
+	margin: 0px 8px;
+	padding: 0px 10px;
+	border: 1px solid white;
+	border-radius:5px;
+}
+.main-content .search-bar button {
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 400px;
+    line-height: 45px;
+    width: 140px;   
+	border: 1px solid black;
+	border-radius:5px;
+	    font-size: 14px;
+	cursor:pointer;
+}
+.main-content .search-bar{
+	position: relative;
+}
+.main-content .search-bar button img {
+    margin-right: 8px;
+    width: 19px;
+	position: relative;
+    top: 5px;
+}
+.main-content .search-bar input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #9C9C9C;
+  opacity: 1; /* Firefox */
+}
+
+.main-content .search-bar input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #9C9C9C;
+}
+
+.main-content .search-bar input::-ms-input-placeholder { /* Microsoft Edge */
+color: #9C9C9C;
+}
+.addonehere {
+    margin: 24px 0 0;
+}
+.addonehere a {
+    color: #000;
+    font-weight: 700;
+    margin-left: 20px;
+}
+ 
